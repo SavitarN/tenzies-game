@@ -26,11 +26,5 @@
   font-weight: bold;
 }
 .btnRoll {
-  height: 40px;
-  width: 100px;
-  border: none;
-  border-radius: 10px;
-  background-color: blueviolet;
-  cursor: pointer;
-  font-weight: bold;
+  background-color: violet;
 }
