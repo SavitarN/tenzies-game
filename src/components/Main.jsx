@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import Buttons from "./Buttons";
 import { nanoid } from "nanoid";
+import Confetti from "react-confetti";
 
 const Main = () => {
   const [button, setButton] = React.useState(() => buttonElements());
@@ -56,6 +57,7 @@ const Main = () => {
   ));
   return (
     <div className="container">
+      {gameWon && <Confetti />}
       <div className="dieContainer">{btnElem}</div>
 
       <button className="btnRoll" onClick={handleRoll}>
