@@ -3,6 +3,8 @@ import "./style.css";
 const Buttons = (props) => {
   const style = {
     backgroundColor: props.isHeld ? "lightgreen" : "white",
+    color: props.isHeld ? "black" : "black",
+    border: props.isHeld ? "2px solid black" : "none",
   };
   return (
     <div>
