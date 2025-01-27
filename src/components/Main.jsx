@@ -6,7 +6,6 @@ import Confetti from "react-confetti";
 
 const Main = () => {
   const [button, setButton] = React.useState(() => buttonElements());
-  const [status, setStatus] = React.useState(false);
 
   //funciton for generating object that holds the dice element essential property//
   function buttonElements() {
